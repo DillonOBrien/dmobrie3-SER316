@@ -34,6 +34,7 @@ public class Cart {
         int alcoholCounter = 0;
         int frozenFoodCounter = 0;
         int dairyCounter = 0;
+        int meatCounter = 0;
         
         for(int i = 0; i < cart.size(); i++){
             total += cart.get(i).getCost();
@@ -52,6 +53,9 @@ public class Cart {
             }
             else if (cart.get(i).getClass().toString().equals(FrozenFood.class.toString())) {
                 frozenFoodCounter++;
+            }
+            else if (cart.get().getClass().toString().equals(Meat.class.toString())) {
+                meatCounter++;
             }
             else if (cart.get(i).getClass().toString().equals(FrozenFood.class.toString())) {
                 dairyCounter++;
