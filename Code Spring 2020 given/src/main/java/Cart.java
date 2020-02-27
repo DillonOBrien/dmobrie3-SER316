@@ -28,11 +28,7 @@ public class Cart {
      * @throws UnderAgeException
      */
     public double calcCost() throws UnderAgeException {
-        return 0; //implement me, will be important for assignment 4 (nothing to do here for assignment 3)
-        //public String concatenate(String one, String two){
-        //return one + two;
-   // }
-        int totalCart = 0;
+        double totalCart = 0.0D;
         int costAfterSavings = 0;
         double produce_Counter = 0;
         int alcoholCounter = 0;
