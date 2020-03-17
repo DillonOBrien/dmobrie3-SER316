@@ -28,45 +28,10 @@ public class Cart {
      * @throws UnderAgeException
      */
     public double calcCost() throws UnderAgeException {
-        double totalCart = 0.0D;
-        int costAfterSavings = 0;
-        double produce_Counter = 0;
-        int alcoholCounter = 0;
-        int frozenFoodCounter = 0;
-        int dairyCounter = 0;
-        int meatCounter = 0;
-        
-        for(int i = 0; i < cart.size(); i++){
-            total += cart.get(i).getCost();
-            if (cart.get(i).getClass().toString().equals(Produce.class.toString())) {
-                produce_Counter++;
-                if (produce_Counter >=3) {
-                    costAfterSavings -= 1;
-                    produce_Counter = 0;
-                }
-        }
-            else if (cart.get(i).getClass().toString().equals(Alcohol.class.toString())) {
-                alcoholCounter++;
-                if (userAge < 21) {
-                    throw new UnderAgeException("The User is not of age to purchase alcohol!");
-                }
-            }
-            else if (cart.get(i).getClass().toString().equals(FrozenFood.class.toString())) {
-                frozenFoodCounter++;
-            }
-            else if (cart.get().getClass().toString().equals(Meat.class.toString())) {
-                meatCounter++;
-            }
-            else if (cart.get(i).getClass().toString().equals(FrozenFood.class.toString())) {
-                dairyCounter++;
-            }
-            if (alcoholCounter >= 1 && frozenFoodCounter >= 1) {
-                 costAfterSavings = costAfterSavings + 3;
-                 alcoholCounter--;
-                 frozenFoodCounter--;
-            }
-        }
-    return totalCart;
+        return 0; //implement me, will be important for assignment 4 (nothing to do here for assignment 3)
+        //public String concatenate(String one, String two){
+        //return one + two;
+   // }
         
     }
 
