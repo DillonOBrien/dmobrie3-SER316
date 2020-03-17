@@ -140,32 +140,12 @@ public class calcCostTest {
         }
         cart3Expected = 10;
         
-	cart4 = createCart(40);
-        for (int i = 0; i < 1; i++) {
-        	cart4.addItem(new Produce());
-        }
-	    for (int i = 0; i < 1; i++) {
-        	cart4.addItem(new Alcohol());
-        }
-	    for (int i = 0; i < 1; i++) {
-        	cart4.addItem(new FrozenFood());
-        }
-	    for (int i = 0; i < 1; i++) {
-        	cart4.addItem(new Meat());
-        }
-        for (int i = 0; i < 1; i++) {
-        	cart4.addItem(new Alcohol());
-        }
-        for (int i = 0; i < 1; i++) {
-        	cart4.addItem(new Dairy());
-        }
-        cart4Expected = 25;
     }
     @Test
-    public void calcCostTestOne() throws UnderAgeException {
-    	double amount = cart4.calcCost();
-    	assertEquals(cart4Expected, amount, 0.1);
-  
+    public void calcCostTestOne() {
+    	//calcCost myUnit = new calcCost();
+    	//String result = myUnit.concatenate("one", "two");
+    	//assertEquals("onetwo", result);
     }
     @Test
     public void testCart3() throws UnderAgeException{
