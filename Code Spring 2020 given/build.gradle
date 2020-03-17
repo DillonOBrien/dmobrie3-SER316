@@ -3,6 +3,9 @@
 //     id "checkstyle"
 // }
 
+test {
+    exclude ’**/BlackBoxGiven.class’
+}
 apply plugin: 'application'
 apply plugin: 'jacoco'
 
