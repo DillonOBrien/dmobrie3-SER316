@@ -2,6 +2,9 @@
 //     id "com.github.spotbugs" version "3.0.0"
 //     id "checkstyle"
 // }
+plugins {
+    id 'pmd'
+}
 
 test {
     exclude ’**/BlackBoxGiven.class’
@@ -22,6 +25,14 @@ repositories {
 dependencies {
     compile "junit:junit:4.12"
     compile files('cls/')
+}
+apply plugin: "pmd"
+pmd {
+  ignoreFailures = true 
+  sourceSets = [sourceSets.main]
+  reportsDir = file("$project.buildDir/reports/pmd")
+  ruleSets = []
+  ruleSetConfig = resources.text.fromFile('ruleset.xml')
 }
 
 ///////////////////////////////////////////////////////////////////////
