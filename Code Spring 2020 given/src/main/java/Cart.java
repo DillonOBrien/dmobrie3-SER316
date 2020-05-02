@@ -28,18 +28,7 @@ public class Cart {
      * @throws UnderAgeException
      */
     public double calcCost() throws UnderAgeException {
-        return 0; //implement me, will be important for assignment 4 (nothing to do here for assignment 3)
-        //public String concatenate(String one, String two){
-        //return one + two;
-   // }
-        
-    }
-
-    // calculates how much was saved in the current shopping cart based on the deals, returns the saved amount
-    // throws exception if alcohol is bought from underage person
-    // TODO: Create node graph for this method in assign 4: create white box tests and fix the method, reach at least 98% coverage
-    public int Amount_saved() throws UnderAgeException {
-        int subTotal = 0;
+        int Total = 0;
         int costAfterSavings = 0;
 
         double produce_Counter = 0;
@@ -48,7 +37,7 @@ public class Cart {
         int dairyCounter = 0;
 
         for(int i = 0; i < cart.size(); i++) {
-            subTotal += cart.get(i).getCost();
+            Total += cart.get(i).getCost();
             costAfterSavings =costAfterSavings+cart.get(i).getCost();
 
             if (cart.get(i).getClass().toString().equals(Produce.class.toString())) {
@@ -77,12 +66,191 @@ public class Cart {
                  frozenFoodCounter--;
             }
         }
+        return Total;      
+    }
+    public double calcCostTwo() throws UnderAgeException {
+        int Total = 0;
+        int costAfterSavings = 0;
+
+        double produce_Counter = 0;
+        int alcoholCounter = 0;
+        int frozenFoodCounter = 0;
+        int dairyCounter = 0;
+
+        for(int i = 0; i < cart.size(); i++) {
+            Total += cart.get(i).getCost();
+            costAfterSavings =costAfterSavings+cart.get(i).getCost();
+
+            if (cart.get(i).getClass().toString().equals(Produce.class.toString())) {
+                produce_Counter++;
+
+                if (produce_Counter >= 3) {
+                    costAfterSavings -= 1;
+                    produce_Counter = 0;
+                }
+            }     
+    }
+        return Total; 
+    }
+    public double calcCostThree() throws UnderAgeException {
+        int Total = 0;
+        int costAfterSavings = 0;
+
+        double produce_Counter = 0;
+        int alcoholCounter = 0;
+        int frozenFoodCounter = 0;
+        int dairyCounter = 0;
+
+        for(int i = 0; i < cart.size(); i++) {
+            Total += cart.get(i).getCost();
+            costAfterSavings =costAfterSavings+cart.get(i).getCost();
+            if (cart.get(i).getClass().toString().equals(Alcohol.class.toString())) {
+                alcoholCounter++;
+                if (userAge < 21) {
+                    throw new UnderAgeException("The User is not of age to purchase alcohol!");
+                }
+            }
+        }
+        return Total;      
+    }
+    public double calcCostFour() throws UnderAgeException {
+        int Total = 0;
+        int costAfterSavings = 0;
+
+        double produce_Counter = 0;
+        int alcoholCounter = 0;
+        int frozenFoodCounter = 0;
+        int dairyCounter = 0;
+
+        for(int i = 0; i < cart.size(); i++) {
+            if (cart.get(i).getClass().toString().equals(FrozenFood.class.toString())) {
+                frozenFoodCounter++;
+            }
+        }
+        return Total;      
+    }
+    public double calcCostFive() throws UnderAgeException {
+        int Total = 0;
+        int costAfterSavings = 0;
+
+        double produce_Counter = 0;
+        int alcoholCounter = 0;
+        int frozenFoodCounter = 0;
+        int dairyCounter = 0;
+
+        for(int i = 0; i < cart.size(); i++) {
+            if (cart.get(i).getClass().toString().equals(FrozenFood.class.toString())) {
+                dairyCounter++;
+            }
+            if (alcoholCounter >= 1 && frozenFoodCounter >= 1) {
+                 costAfterSavings = costAfterSavings + 3;
+                 alcoholCounter--;
+                 frozenFoodCounter--;
+            }
+        }
+        return Total;      
+    }
+
+    // calculates how much was saved in the current shopping cart based on the deals, returns the saved amount
+    // throws exception if alcohol is bought from underage person
+    // TODO: Create node graph for this method in assign 4: create white box tests and fix the method, reach at least 98% coverage
+    public int Amount_saved() throws UnderAgeException {
+        int subTotal = 0;
+        int costAfterSavings = 0;
+
+        double produce_Counter = 0;
+        int alcoholCounter = 0;
+        int frozenFoodCounter = 0;
+        int dairyCounter = 0;
+
+        for(int i = 0; i < cart.size(); i++) {
+            subTotal += cart.get(i).getCost();
+            costAfterSavings =costAfterSavings+cart.get(i).getCost();
+
+            if (cart.get(i).getClass().toString().equals(Produce.class.toString())) {
+                produce_Counter++;
+
+                if (produce_Counter >= 3) {
+                    costAfterSavings -= 1;
+                    produce_Counter = 0;
+                }
+            }
+        }
+        return subTotal - costAfterSavings;
+    }
+            public int Amount_savedTwo() throws UnderAgeException {
+                int subTotal = 0;
+                int costAfterSavings = 0;
+
+                double produce_Counter = 0;
+                int alcoholCounter = 0;
+                int frozenFoodCounter = 0;
+                int dairyCounter = 0;
+            for(int i = 0; i < cart.size(); i++) {
+            if (cart.get(i).getClass().toString().equals(Alcohol.class.toString())) {
+                alcoholCounter++;
+                if (userAge < 21) {
+                    throw new UnderAgeException("The User is not of age to purchase alcohol!");
+                }
+        }
+    }
+            return subTotal - costAfterSavings;
+            }
+            public int Amount_savedThree() throws UnderAgeException {
+                int subTotal = 0;
+                int costAfterSavings = 0;
+
+                double produce_Counter = 0;
+                int alcoholCounter = 0;
+                int frozenFoodCounter = 0;
+                int dairyCounter = 0;
+            for(int i = 0; i < cart.size(); i++) {
+            if (cart.get(i).getClass().toString().equals(FrozenFood.class.toString())) {
+                frozenFoodCounter++;
+            }
+        }
+
+        return subTotal - costAfterSavings;
+    }
+            public int Amount_savedFour() throws UnderAgeException {
+                int subTotal = 0;
+                int costAfterSavings = 0;
+
+                double produce_Counter = 0;
+                int alcoholCounter = 0;
+                int frozenFoodCounter = 0;
+                int dairyCounter = 0;
+            for(int i = 0; i < cart.size(); i++) {
+            if (cart.get(i).getClass().toString().equals(FrozenFood.class.toString())) {
+                dairyCounter++;
+            }
+            if (alcoholCounter >= 1 && frozenFoodCounter >= 1) {
+                 costAfterSavings = costAfterSavings + 3;
+                 alcoholCounter--;
+                 frozenFoodCounter--;
+            }
+        }
 
         return subTotal - costAfterSavings;
     }
 
+
     // Gets the tax based on state and the total
     public double getTax(double totalBT, String twoLetterUSStateAbbreviation) {
+        double newTotal = 0;
+        switch (twoLetterUSStateAbbreviation) {
+            case "NY":
+                newTotal = totalBT * .1;
+            case "CO":
+                newTotal = totalBT * .07;
+                break;
+            default:
+                return totalBT;
+        }
+        return newTotal;
+    }
+    // Gets the tax based on state and the total
+    public double getTaxWest(double totalBT, String twoLetterUSStateAbbreviation) {
         double newTotal = 0;
         switch (twoLetterUSStateAbbreviation) {
             case "AZ":
@@ -90,11 +258,6 @@ public class Cart {
                 break;
             case "CA":
                 newTotal = totalBT * .09;
-                break;
-            case "NY":
-                newTotal = totalBT * .1;
-            case "CO":
-                newTotal = totalBT * .07;
                 break;
             default:
                 return totalBT;

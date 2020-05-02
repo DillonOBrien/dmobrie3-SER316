@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.java.calcCostTest" tests="60" skipped="0" failures="47" errors="0" timestamp="2020-05-02T06:40:55" hostname="DESKTOP-0EIPH50" time="0.012">
+<testsuite name="test.java.BlackBoxGiven" tests="54" skipped="0" failures="47" errors="0" timestamp="2020-05-02T06:40:55" hostname="DESKTOP-0EIPH50" time="0.019">
   <properties/>
-  <testcase name="calcCostTestOne[0]" classname="test.java.calcCostTest" time="0.0"/>
-  <testcase name="testAlcohol[0]" classname="test.java.calcCostTest" time="0.0"/>
-  <testcase name="testCart2[0]" classname="test.java.calcCostTest" time="0.001">
+  <testcase name="testAlcohol[0]" classname="test.java.BlackBoxGiven" time="0.0"/>
+  <testcase name="testCart2[0]" classname="test.java.BlackBoxGiven" time="0.002">
     <failure message="java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;14.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;14.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testCart2(calcCostTest.java:159)
+	at test.java.BlackBoxGiven.testCart2(BlackBoxGiven.java:153)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -68,13 +67,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testCart3[0]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testCart3[0]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;10.0&gt; but was:&lt;0.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;10.0&gt; but was:&lt;0.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testCart3(calcCostTest.java:153)
+	at test.java.BlackBoxGiven.testCart3(BlackBoxGiven.java:147)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -133,14 +132,14 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testDairy[0]" classname="test.java.calcCostTest" time="0.0"/>
-  <testcase name="testMeat[0]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testDairy[0]" classname="test.java.BlackBoxGiven" time="0.0"/>
+  <testcase name="testMeat[0]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;10.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;10.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testMeat(calcCostTest.java:165)
+	at test.java.BlackBoxGiven.testMeat(BlackBoxGiven.java:159)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -199,13 +198,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="calcCostCart1[0]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="calcCostCart1[0]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;70.2&gt; but was:&lt;65.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;70.2&gt; but was:&lt;65.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.calcCostCart1(calcCostTest.java:200)
+	at test.java.BlackBoxGiven.calcCostCart1(BlackBoxGiven.java:194)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -264,13 +263,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testProduce[0]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testProduce[0]" classname="test.java.BlackBoxGiven" time="0.003">
     <failure message="java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;8.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;8.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testProduce(calcCostTest.java:190)
+	at test.java.BlackBoxGiven.testProduce(BlackBoxGiven.java:184)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -329,16 +328,15 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testFrozenFood[0]" classname="test.java.calcCostTest" time="0.0"/>
-  <testcase name="testUnderAgeExceptionThrown[0]" classname="test.java.calcCostTest" time="0.0"/>
-  <testcase name="calcCostTestOne[1]" classname="test.java.calcCostTest" time="0.0"/>
-  <testcase name="testAlcohol[1]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testFrozenFood[0]" classname="test.java.BlackBoxGiven" time="0.0"/>
+  <testcase name="testUnderAgeExceptionThrown[0]" classname="test.java.BlackBoxGiven" time="0.0"/>
+  <testcase name="testAlcohol[1]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;16.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;16.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testAlcohol(calcCostTest.java:177)
+	at test.java.BlackBoxGiven.testAlcohol(BlackBoxGiven.java:171)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -397,13 +395,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testCart2[1]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testCart2[1]" classname="test.java.BlackBoxGiven" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;28.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;28.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testCart2(calcCostTest.java:159)
+	at test.java.BlackBoxGiven.testCart2(BlackBoxGiven.java:153)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -462,13 +460,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testCart3[1]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testCart3[1]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;10.0&gt; but was:&lt;0.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;10.0&gt; but was:&lt;0.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testCart3(calcCostTest.java:153)
+	at test.java.BlackBoxGiven.testCart3(BlackBoxGiven.java:147)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -527,13 +525,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testDairy[1]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testDairy[1]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;3.0&gt; but was:&lt;6.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;3.0&gt; but was:&lt;6.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testDairy(calcCostTest.java:183)
+	at test.java.BlackBoxGiven.testDairy(BlackBoxGiven.java:177)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -592,13 +590,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testMeat[1]" classname="test.java.calcCostTest" time="0.001">
+  <testcase name="testMeat[1]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;20.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;20.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testMeat(calcCostTest.java:165)
+	at test.java.BlackBoxGiven.testMeat(BlackBoxGiven.java:159)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -657,13 +655,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="calcCostCart1[1]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="calcCostCart1[1]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;70.2&gt; but was:&lt;130.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;70.2&gt; but was:&lt;130.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.calcCostCart1(calcCostTest.java:200)
+	at test.java.BlackBoxGiven.calcCostCart1(BlackBoxGiven.java:194)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -722,13 +720,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testProduce[1]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testProduce[1]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;8.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;8.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testProduce(calcCostTest.java:190)
+	at test.java.BlackBoxGiven.testProduce(BlackBoxGiven.java:184)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -787,13 +785,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testFrozenFood[1]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testFrozenFood[1]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;10.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;10.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testFrozenFood(calcCostTest.java:171)
+	at test.java.BlackBoxGiven.testFrozenFood(BlackBoxGiven.java:165)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -852,15 +850,14 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testUnderAgeExceptionThrown[1]" classname="test.java.calcCostTest" time="0.0"/>
-  <testcase name="calcCostTestOne[2]" classname="test.java.calcCostTest" time="0.0"/>
-  <testcase name="testAlcohol[2]" classname="test.java.calcCostTest" time="0.001">
+  <testcase name="testUnderAgeExceptionThrown[1]" classname="test.java.BlackBoxGiven" time="0.0"/>
+  <testcase name="testAlcohol[2]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;16.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;16.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testAlcohol(calcCostTest.java:177)
+	at test.java.BlackBoxGiven.testAlcohol(BlackBoxGiven.java:171)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -919,13 +916,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testCart2[2]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testCart2[2]" classname="test.java.BlackBoxGiven" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;28.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;28.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testCart2(calcCostTest.java:159)
+	at test.java.BlackBoxGiven.testCart2(BlackBoxGiven.java:153)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -984,13 +981,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testCart3[2]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testCart3[2]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;10.0&gt; but was:&lt;0.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;10.0&gt; but was:&lt;0.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testCart3(calcCostTest.java:153)
+	at test.java.BlackBoxGiven.testCart3(BlackBoxGiven.java:147)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1049,13 +1046,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testDairy[2]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testDairy[2]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;3.0&gt; but was:&lt;6.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;3.0&gt; but was:&lt;6.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testDairy(calcCostTest.java:183)
+	at test.java.BlackBoxGiven.testDairy(BlackBoxGiven.java:177)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1114,13 +1111,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testMeat[2]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testMeat[2]" classname="test.java.BlackBoxGiven" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;18.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;18.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testMeat(calcCostTest.java:165)
+	at test.java.BlackBoxGiven.testMeat(BlackBoxGiven.java:159)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1179,13 +1176,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="calcCostCart1[2]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="calcCostCart1[2]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;70.2&gt; but was:&lt;122.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;70.2&gt; but was:&lt;122.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.calcCostCart1(calcCostTest.java:200)
+	at test.java.BlackBoxGiven.calcCostCart1(BlackBoxGiven.java:194)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1244,13 +1241,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testProduce[2]" classname="test.java.calcCostTest" time="0.001">
+  <testcase name="testProduce[2]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;8.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;8.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testProduce(calcCostTest.java:190)
+	at test.java.BlackBoxGiven.testProduce(BlackBoxGiven.java:184)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1309,13 +1306,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testFrozenFood[2]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testFrozenFood[2]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;10.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;10.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testFrozenFood(calcCostTest.java:171)
+	at test.java.BlackBoxGiven.testFrozenFood(BlackBoxGiven.java:165)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1374,7 +1371,7 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testUnderAgeExceptionThrown[2]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testUnderAgeExceptionThrown[2]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: Expected exception: main.java.UnderAgeException" type="java.lang.AssertionError">java.lang.AssertionError: Expected exception: main.java.UnderAgeException
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
@@ -1427,14 +1424,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="calcCostTestOne[3]" classname="test.java.calcCostTest" time="0.0"/>
-  <testcase name="testAlcohol[3]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testAlcohol[3]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;16.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;16.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testAlcohol(calcCostTest.java:177)
+	at test.java.BlackBoxGiven.testAlcohol(BlackBoxGiven.java:171)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1493,13 +1489,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testCart2[3]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testCart2[3]" classname="test.java.BlackBoxGiven" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;34.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;34.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testCart2(calcCostTest.java:159)
+	at test.java.BlackBoxGiven.testCart2(BlackBoxGiven.java:153)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1558,13 +1554,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testCart3[3]" classname="test.java.calcCostTest" time="0.001">
+  <testcase name="testCart3[3]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;10.0&gt; but was:&lt;0.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;10.0&gt; but was:&lt;0.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testCart3(calcCostTest.java:153)
+	at test.java.BlackBoxGiven.testCart3(BlackBoxGiven.java:147)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1623,13 +1619,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testDairy[3]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testDairy[3]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;3.0&gt; but was:&lt;6.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;3.0&gt; but was:&lt;6.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testDairy(calcCostTest.java:183)
+	at test.java.BlackBoxGiven.testDairy(BlackBoxGiven.java:177)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1688,13 +1684,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testMeat[3]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testMeat[3]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;20.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;20.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testMeat(calcCostTest.java:165)
+	at test.java.BlackBoxGiven.testMeat(BlackBoxGiven.java:159)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1753,13 +1749,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="calcCostCart1[3]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="calcCostCart1[3]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;70.2&gt; but was:&lt;130.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;70.2&gt; but was:&lt;130.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.calcCostCart1(calcCostTest.java:200)
+	at test.java.BlackBoxGiven.calcCostCart1(BlackBoxGiven.java:194)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1818,13 +1814,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testProduce[3]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testProduce[3]" classname="test.java.BlackBoxGiven" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;8.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;8.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testProduce(calcCostTest.java:190)
+	at test.java.BlackBoxGiven.testProduce(BlackBoxGiven.java:184)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1883,13 +1879,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testFrozenFood[3]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testFrozenFood[3]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;10.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;10.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testFrozenFood(calcCostTest.java:171)
+	at test.java.BlackBoxGiven.testFrozenFood(BlackBoxGiven.java:165)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1948,15 +1944,14 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testUnderAgeExceptionThrown[3]" classname="test.java.calcCostTest" time="0.0"/>
-  <testcase name="calcCostTestOne[4]" classname="test.java.calcCostTest" time="0.0"/>
-  <testcase name="testAlcohol[4]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testUnderAgeExceptionThrown[3]" classname="test.java.BlackBoxGiven" time="0.0"/>
+  <testcase name="testAlcohol[4]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;16.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;16.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testAlcohol(calcCostTest.java:177)
+	at test.java.BlackBoxGiven.testAlcohol(BlackBoxGiven.java:171)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2015,13 +2010,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testCart2[4]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testCart2[4]" classname="test.java.BlackBoxGiven" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;28.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;28.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testCart2(calcCostTest.java:159)
+	at test.java.BlackBoxGiven.testCart2(BlackBoxGiven.java:153)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2080,13 +2075,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testCart3[4]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testCart3[4]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;10.0&gt; but was:&lt;0.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;10.0&gt; but was:&lt;0.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testCart3(calcCostTest.java:153)
+	at test.java.BlackBoxGiven.testCart3(BlackBoxGiven.java:147)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2145,13 +2140,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testDairy[4]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testDairy[4]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;3.0&gt; but was:&lt;6.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;3.0&gt; but was:&lt;6.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testDairy(calcCostTest.java:183)
+	at test.java.BlackBoxGiven.testDairy(BlackBoxGiven.java:177)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2210,13 +2205,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testMeat[4]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testMeat[4]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;20.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;20.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testMeat(calcCostTest.java:165)
+	at test.java.BlackBoxGiven.testMeat(BlackBoxGiven.java:159)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2275,13 +2270,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="calcCostCart1[4]" classname="test.java.calcCostTest" time="0.001">
+  <testcase name="calcCostCart1[4]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;70.2&gt; but was:&lt;130.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;70.2&gt; but was:&lt;130.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.calcCostCart1(calcCostTest.java:200)
+	at test.java.BlackBoxGiven.calcCostCart1(BlackBoxGiven.java:194)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2340,13 +2335,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testProduce[4]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testProduce[4]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;8.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;8.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testProduce(calcCostTest.java:190)
+	at test.java.BlackBoxGiven.testProduce(BlackBoxGiven.java:184)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2405,13 +2400,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testFrozenFood[4]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testFrozenFood[4]" classname="test.java.BlackBoxGiven" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;10.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;10.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testFrozenFood(calcCostTest.java:171)
+	at test.java.BlackBoxGiven.testFrozenFood(BlackBoxGiven.java:165)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2470,15 +2465,14 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testUnderAgeExceptionThrown[4]" classname="test.java.calcCostTest" time="0.0"/>
-  <testcase name="calcCostTestOne[5]" classname="test.java.calcCostTest" time="0.0"/>
-  <testcase name="testAlcohol[5]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testUnderAgeExceptionThrown[4]" classname="test.java.BlackBoxGiven" time="0.0"/>
+  <testcase name="testAlcohol[5]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;16.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;16.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testAlcohol(calcCostTest.java:177)
+	at test.java.BlackBoxGiven.testAlcohol(BlackBoxGiven.java:171)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2537,13 +2531,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testCart2[5]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testCart2[5]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;28.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;28.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testCart2(calcCostTest.java:159)
+	at test.java.BlackBoxGiven.testCart2(BlackBoxGiven.java:153)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2602,13 +2596,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testCart3[5]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testCart3[5]" classname="test.java.BlackBoxGiven" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;10.0&gt; but was:&lt;0.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;10.0&gt; but was:&lt;0.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testCart3(calcCostTest.java:153)
+	at test.java.BlackBoxGiven.testCart3(BlackBoxGiven.java:147)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2667,13 +2661,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testDairy[5]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testDairy[5]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;3.0&gt; but was:&lt;6.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;3.0&gt; but was:&lt;6.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testDairy(calcCostTest.java:183)
+	at test.java.BlackBoxGiven.testDairy(BlackBoxGiven.java:177)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2732,13 +2726,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testMeat[5]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testMeat[5]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;20.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;20.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testMeat(calcCostTest.java:165)
+	at test.java.BlackBoxGiven.testMeat(BlackBoxGiven.java:159)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2797,13 +2791,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="calcCostCart1[5]" classname="test.java.calcCostTest" time="0.001">
+  <testcase name="calcCostCart1[5]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;70.2&gt; but was:&lt;130.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;70.2&gt; but was:&lt;130.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.calcCostCart1(calcCostTest.java:200)
+	at test.java.BlackBoxGiven.calcCostCart1(BlackBoxGiven.java:194)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2862,13 +2856,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testProduce[5]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testProduce[5]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;8.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;8.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testProduce(calcCostTest.java:190)
+	at test.java.BlackBoxGiven.testProduce(BlackBoxGiven.java:184)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2927,13 +2921,13 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testFrozenFood[5]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testFrozenFood[5]" classname="test.java.BlackBoxGiven" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;10.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5.0&gt; but was:&lt;10.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at test.java.calcCostTest.testFrozenFood(calcCostTest.java:171)
+	at test.java.BlackBoxGiven.testFrozenFood(BlackBoxGiven.java:165)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2992,7 +2986,7 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testUnderAgeExceptionThrown[5]" classname="test.java.calcCostTest" time="0.0">
+  <testcase name="testUnderAgeExceptionThrown[5]" classname="test.java.BlackBoxGiven" time="0.001">
     <failure message="java.lang.AssertionError: Expected exception: main.java.UnderAgeException" type="java.lang.AssertionError">java.lang.AssertionError: Expected exception: main.java.UnderAgeException
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
